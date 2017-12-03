@@ -8,17 +8,17 @@ Runs a basic [Sinatra](http://www.sinatrarb.com) server ...
 
 ## Build it
 
-    docker build -t adilinden/sinatra-hello .
+    docker build -t adilinden/docker-sinatra-hello .
 
 ## Or, get it from [Docker Hub](https://hub.docker.com/)
 
-    docker pull adilinden/sinatra-hello
+    docker pull adilinden/docker-sinatra-hello
 
 ## Run it
 
     docker run --name sinatra-hello \
         -p 8080:80 \
-        --rm -it adilinden/sinatra-hello
+        --rm -it adilinden/docker-sinatra-hello
 
 ## See the result
 
